@@ -1,0 +1,13 @@
+# Ignore Git history
+.git
+.gitignore
+
+# Ignore IntelliJ IDEA project files
+.idea
+*.iml
+
+# Ignore the Maven build output directory
+target/
+
+# Ignore markdown files (optional, but keeps the image clean)
+*.md
