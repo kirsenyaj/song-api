@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/villanueva/songs")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:5173", "https://song-ui-m0og.onrender.com")
 public class SongController {
 
     @Autowired
